@@ -1,0 +1,42 @@
+{
+  "name": "ecodrawer-whatsapp-bot",
+  "version": "1.0.0",
+  "description": "EcoDrawer - WhatsApp E-Waste Awareness Bot with personalized learning, quizzes, and AI-powered interactions",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "lint": "eslint src/**/*.js"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "e-waste",
+    "awareness",
+    "education",
+    "sustainability",
+    "recycling",
+    "groq",
+    "ai",
+    "chatbot",
+    "environmental",
+    "tech-cycle",
+    "hackathon"
+  ],
+  "author": "TECH-CYCLE Team",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.21.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "form-data": "^4.0.6",
+    "groq-sdk": "^1.6.0",
+    "mongoose": "^9.11.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
